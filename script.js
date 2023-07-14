@@ -36,12 +36,6 @@ let checkobliqueo1 = 0;
 let checkobliquex2 = 0;
 let checkobliqueo2 = 0;
 
-if (window.innerWidth < 600) {
-    body[0].style.padding = "50px 0";
-    main.style.width = `${window.innerWidth}px`;
-    main.style.height = `${window.innerWidth}px`;
-}
-
 clickbox1.addEventListener("click",() => {
     if (checkxo == 0) {
         x_o[0].src = "https://media.istockphoto.com/id/1300683401/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%AA%E0%B8%B5%E0%B9%81%E0%B8%94%E0%B8%87-x-%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%AA%E0%B8%B5%E0%B8%99%E0%B9%89%E0%B9%8D%E0%B8%B2%E0%B8%9A%E0%B8%99%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B5%E0%B8%82%E0%B8%B2%E0%B8%A7.jpg?s=612x612&w=0&k=20&c=m3uri9MiWJ7ItENx_u2l_4CWgFxdhnYoCL8k4z-GeUg=";
